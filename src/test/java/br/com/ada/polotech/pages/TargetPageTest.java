@@ -33,23 +33,20 @@ public class TargetPageTest {
     @Test
     public void buttonClickToSetAddressByActualLocationTest() {
         browserPage.accessMainPage();
-        browserPage.wait(15);
         browserPage.clickToSetAddress();
     }
 
     @Test
     public void searchProductTest() {
         browserPage.accessMainPage();
-        browserPage.wait(15);
         browserPage.clickToSetAddress();
-        browserPage.wait(15);
+        browserPage.wait(10);
         browserPage.search("pizza");
     }
 
     @Test
     public void filterSearchResultsByItemsTest() {
         browserPage.accessMainPage();
-        browserPage.wait(15);
         browserPage.clickToSetAddress();
         browserPage.wait(15);
         browserPage.search("pizza");

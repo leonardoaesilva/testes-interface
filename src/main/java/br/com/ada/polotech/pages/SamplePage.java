@@ -9,10 +9,6 @@ public class SamplePage {
         this.driver = driver;
     }
 
-    public String getTitle() {
-        return driver.getTitle();
-    }
-
     public WebDriver getPage() {
         return driver;
     }
